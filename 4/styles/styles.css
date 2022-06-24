@@ -1,0 +1,256 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/ptsans-700.woff2") format("woff2");
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: white;
+  color: black;
+}
+
+.navigation-item a{
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  line-height: 26px;
+}
+
+.navigation-list{
+  list-style: none;
+}
+
+.welcome-container{
+  background-color: #d3e3f1;
+  background-image: url("/images/index-background.jpg");
+  background-repeat: no-repeat;
+  /*background-size: 100% auto;*/
+  text-align: center;
+}
+
+.button{
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  color: white;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-heading{
+  text-align: center;
+}
+
+.main-heading-subtitle {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+}
+
+.main-heading-text{
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.advantages{
+  text-align: center;
+}
+
+.advantages-list{
+  list-style: none;
+}
+
+.advantages-content-style1{
+  background-color: #FFFFFF;
+}
+
+.advantages-content-style2{
+  background-color: #83B3D31F;
+
+}
+
+.advantages-content-style3{
+  background-color: #83B3D333;
+}
+
+.advantages-content-style4{
+  background-color: #82B3D3;
+  color: #FFFFFF;
+}
+
+.advantages-image{
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.image-food{
+  background-image: url("/images/food.png");
+  width: 75px;
+  height: 70px;
+}
+
+.image-home{
+  background-image: url("/images/home.png");
+  width: 75px;
+  height: 72px;
+}
+
+.image-vector{
+  background-image: url("/images/vector.png");
+  width: 64px;
+  height: 76px;
+}
+
+.advantages-title{
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.hotel-search{
+  text-align: center;
+}
+
+.hotel-search-title{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.subscribe {
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-color: #756157;
+}
+
+.subscribe-title{
+  text-transform: uppercase;
+}
+
+.footer-social-list{
+  list-style: none;
+}
+
+.footer-social-item .button{
+  background-color: #FFFFFF;
+}
+
+.contact-phone{
+  font-size: 40px;
+  line-height: 40px;
+  color: black;
+  text-decoration: none;
+}
+
+.inner-header{
+  background-image: url("/images/catalog/catalog-background.jpg");
+  background-color: #83a8c7;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+}
+
+.inner-header-title{
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.breadcrumbs{
+  list-style: none;
+}
+
+.catalog-filter-group{
+  border: none;
+}
+
+.catalog-filter-list{
+  list-style: none;
+}
+
+.catalog-filter-title{
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.price-filter-title{
+  font-size: 20px;
+}
+
+.catalog-title{
+  text-transform: uppercase;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.catalog-button-apply{
+  background-color: #82B3D3;
+}
+
+.catalog-button-reset{
+  background-color: transparent;
+  text-transform: none;
+  font-weight: 400;
+  border: none;
+}
+
+.product-card-link{
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.button-to-favorite{
+  background-color: #82B3D3;
+}
+
+.button-in-favorite{
+  background-color: #7DB54F;
+}
+
+.pagination-list{
+  list-style: none;
+}
+
+.pagination-link{
+  background-color: #82B3D3;
+}
+
+.pagination-current{
+  background-color: #F2F2F2;
+}
+
+.subscribe-catalog{
+  text-align: center;
+}
+
+.subscribe-button{
+  background-color: #82B3D3;
+}
+
+
+
+
