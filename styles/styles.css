@@ -102,24 +102,6 @@ body {
   background-position: center;
 }
 
-.image-food{
-  background-image: url("../images/food.png");
-  width: 75px;
-  height: 70px;
-}
-
-.image-home{
-  background-image: url("../images/home.png");
-  width: 75px;
-  height: 72px;
-}
-
-.image-vector{
-  background-image: url("../images/vector.png");
-  width: 64px;
-  height: 76px;
-}
-
 .advantages-title{
   text-transform: uppercase;
   font-size: 24px;
