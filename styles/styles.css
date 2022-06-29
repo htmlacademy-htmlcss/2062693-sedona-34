@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("/fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("/fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
 }
 
 body {
@@ -103,19 +103,19 @@ body {
 }
 
 .image-food{
-  background-image: url("/images/food.png");
+  background-image: url("../images/food.png");
   width: 75px;
   height: 70px;
 }
 
 .image-home{
-  background-image: url("/images/home.png");
+  background-image: url("../images/home.png");
   width: 75px;
   height: 72px;
 }
 
 .image-vector{
-  background-image: url("/images/vector.png");
+  background-image: url("../images/vector.png");
   width: 64px;
   height: 76px;
 }
@@ -140,7 +140,7 @@ body {
 .subscribe {
   text-align: center;
   color: #FFFFFF;
-  background-image: url("/images/background.jpg");
+  background-image: url("../images/background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-color: #756157;
@@ -166,7 +166,7 @@ body {
 }
 
 .inner-header{
-  background-image: url("/images/catalog/catalog-background.jpg");
+  background-image: url("../images/catalog/catalog-background.jpg");
   background-color: #83a8c7;
   background-size: 100% auto;
   background-repeat: no-repeat;
