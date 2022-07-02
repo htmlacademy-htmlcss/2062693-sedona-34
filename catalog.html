@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
 
 <header class="page-header">
-  <a href="index.html"><img src="./images/logo.svg" width="139" height="70" class="logo" alt="Логотип"></a>
+  <a href="index.html"><img src="images/logo.svg" width="139" height="70" class="logo" alt="Логотип"></a>
 
   <nav class="navigation">
     <ul class="navigation-list">
@@ -88,11 +89,18 @@
             </label>
           </li>
         </ul>
+
+        <section class="price-filter">
+          <span class="price-filter-title">Стоимость, ₽:</span>
+          <input type="number" class="price-filter-from" placeholder="0">
+          <input type="number" class="price-filter-to" placeholder="9000">
+        </section>
+
       </fieldset>
 
       <div class="catalog-filter-buttons">
-        <button class="button" type="submit">Применить</button>
-        <button class="button" type="reset">Сбросить</button>
+        <button class="button catalog-button-apply" type="submit">Применить</button>
+        <button class="button catalog-button-reset" type="reset">Сбросить</button>
       </div>
 
     </form>
@@ -100,7 +108,7 @@
   </header>
 
   <div class="catalog">
-    <h2 class="catalog-title">Найдено гостиниц</h2>
+    <h2 class="catalog-title">Найдено гостиниц: 38</h2>
 
     <div class="filters">
       <select class="select-control" aria-label="Сортировка">
@@ -129,7 +137,7 @@
         </a>
         <b class="product-card-price">Гостиница от 4000 ₽</b>
         <a class="product-card-button button" href="#">Подробнее</a>
-        <a class="product-card-button button" href="#">В избранное</a>
+        <a class="product-card-button button button-to-favorite" href="#">В избранное</a>
         <img src="" alt="Рейтинг гостиницы" class="rating">
         <span>Рейтинг 8,5</span>
       </div>
@@ -141,7 +149,7 @@
         </a>
         <b class="product-card-price">Гостиница от 5000 ₽</b>
         <a class="product-card-button button" href="#">Подробнее</a>
-        <a class="product-card-button button" href="#">В избранное</a>
+        <a class="product-card-button button button-in-favorite" href="#">В избранном</a>
         <img src="" alt="Рейтинг гостиницы" class="rating">
         <span>Рейтинг 9,2</span>
       </div>
@@ -153,7 +161,7 @@
         </a>
         <b class="product-card-price">Гостиница от 2500 ₽</b>
         <a class="product-card-button button" href="#">Подробнее</a>
-        <a class="product-card-button button" href="#">В избранное</a>
+        <a class="product-card-button button button-to-favorite" href="#">В избранное</a>
         <img src="" alt="Рейтинг гостиницы" class="rating">
         <span>Рейтинг 6,9</span>
       </div>
@@ -165,7 +173,7 @@
         </a>
         <b class="product-card-price">Гостиница от 1500 ₽</b>
         <a class="product-card-button button" href="#">Подробнее</a>
-        <a class="product-card-button button" href="#">В избранное</a>
+        <a class="product-card-button button button-to-favorite" href="#">В избранное</a>
         <img src="" alt="Рейтинг гостиницы" class="rating">
         <span>Рейтинг 5,0</span>
       </div>
@@ -206,7 +214,7 @@
 
   </div>
 
-  <section class="subscribe">
+  <section class="subscribe-catalog">
     <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
       <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -222,29 +230,32 @@
     <h2 class="page-footer-title">Социальные сети</h2>
     <ul class="footer-social-list">
       <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Твиттер</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="#">
+        <a class="button button-twitter" href="#">
           <span class="visually-hidden">ВКонтакте</span>
+          <img src="images/vk.svg">
         </a>
       </li>
       <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Инстаграм</span>
+        <a class="button button-vk" href="#">
+          <span class="visually-hidden">Facebook</span>
+          <img src="images/facebook.svg">
+        </a>
+      </li>
+      <li class="footer-social-item">
+        <a class="button button-instagram" href="#">
+          <span class="visually-hidden">YouTube</span>
+          <img src="images/youtube.svg">
         </a>
       </li>
     </ul>
   </section>
   <section class="contacts">
-      <a class="contact-phone" href="tel:+78128121212">+7(812) 812-12-12</a>
+    <a class="contact-phone" href="tel:+78128121212">+7(812) 812-12-12</a>
   </section>
 
   <section class="html-academy">
     <h2 class="visually-hidden">Логотип Html academy</h2>
-    <a href="#"><img src="#" class="logo-htmlacademy" alt="Логотип Html academy"></a>
+    <a href="#"><img src="images/html-academy.svg" class="logo-htmlacademy" alt="Логотип Html academy"></a>
   </section>
 
 </footer>
