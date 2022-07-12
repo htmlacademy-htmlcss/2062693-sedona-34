@@ -87,7 +87,7 @@ body {
 
 .welcome-container {
   background-color: #d3e3f1;
-  background-image: url("/images/index-background.jpg");
+  background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 1200px;
@@ -159,9 +159,8 @@ body {
   height: 384px;
 }
 
-.advantages-content-photo{
-  width: 800px;
-  height: 384px;
+.photo1, .photo2{
+  display: block;
 }
 
 .advantages-content-style1{
